@@ -1,0 +1,42 @@
+{
+  "training_seed": 42,
+  "sources": [
+    {
+      "path": "videos/final_baseline_seed42/lander-episode-0.mp4",
+      "sha256": "623573aec2a1b715f13ab3e18109beb7747bb3342433bbaa8460b6c17d4b7533",
+      "episode_seed": 30000,
+      "return": 231.97092975662105
+    },
+    {
+      "path": "videos/final_shaped_seed42/lander-episode-0.mp4",
+      "sha256": "c8a94e437355c10cf142f8b98f98ac32f0b2809ee135ac93e93f21a1f29d8579",
+      "episode_seed": 30000,
+      "return": 258.0500331265065
+    },
+    {
+      "path": "videos/final_baseline_seed42/lander-episode-2.mp4",
+      "sha256": "34d2158324dd0ee5bb2c4ea332445e15b3655eb87edd2073e5ac1a005bb84a96",
+      "episode_seed": 30002,
+      "return": 104.29451663080143
+    }
+  ],
+  "comparison": "12 fps; full demo seed 30000 at original speed; shorter episode holds final frame",
+  "timeout": "10 fps; full demo seed 30002 at 2x playback speed",
+  "outputs": [
+    {
+      "path": "assets/readme/landing-comparison.gif",
+      "sha256": "d02e3e937dd2829af2a89bcf6bbccdea22dd4fd42be65db610382c178f3c2f5e",
+      "bytes": 212487
+    },
+    {
+      "path": "assets/readme/baseline-timeout.gif",
+      "sha256": "7aa0a9cda240494097a6a79d2439813a47c9634daade1f02653a5d169bd18c57",
+      "bytes": 116812
+    },
+    {
+      "path": "assets/readme/landing-preview.png",
+      "sha256": "26d63a958c41ee64a0967a961955b1efdc37a1162bd64d6f249d62d211cfff1a",
+      "bytes": 22622
+    }
+  ]
+}

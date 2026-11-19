@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">Lunar Lander PPO — experiment at a glance</title>
+  <desc id="desc">CPU training, three seeds per condition, 100 test episodes per agent. Baseline mean return 217.06, tilt-shaped return 251.62, and random return minus 185.47.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#142b3d"/></linearGradient>
+  </defs>
+  <rect width="1000" height="260" rx="18" fill="url(#bg)"/>
+  <g fill="#cbd5e1" opacity=".3"><circle cx="917" cy="39" r="2"/><circle cx="845" cy="78" r="1.5"/><circle cx="967" cy="100" r="2"/><circle cx="787" cy="28" r="1.5"/></g>
+  <g font-family="DejaVu Sans, sans-serif">
+    <text x="34" y="36" fill="#34d399" font-size="12" letter-spacing="2">REINFORCEMENT LEARNING / CPU EXPERIMENT</text>
+    <text x="34" y="81" fill="#f8fafc" font-size="35" font-weight="700">Learn to land. Measure the difference.</text>
+    <text x="34" y="111" fill="#cbd5e1" font-size="15">PPO · 3 training seeds per condition · 100 held-out episodes per agent</text>
+    <path d="M34 135H966" stroke="#334155"/>
+    <text x="34" y="166" fill="#94a3b8" font-size="12" letter-spacing="1">RANDOM ACTIONS</text>
+    <text x="34" y="207" fill="#f8fafc" font-size="34" font-weight="700">−185.47</text>
+    <text x="340" y="166" fill="#60a5fa" font-size="12" letter-spacing="1">BASELINE PPO</text>
+    <text x="340" y="207" fill="#f8fafc" font-size="34" font-weight="700">217.06</text>
+    <text x="666" y="166" fill="#34d399" font-size="12" letter-spacing="1">TILT-SHAPED PPO</text>
+    <text x="666" y="207" fill="#f8fafc" font-size="34" font-weight="700">251.62</text>
+    <text x="34" y="239" fill="#94a3b8" font-size="12">Original-reward test means. PPO values average three independently trained agents.</text>
+  </g>
+</svg>
