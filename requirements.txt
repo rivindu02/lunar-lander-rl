@@ -1,0 +1,6 @@
+# Install swig first if Box2D must be built from source (see GUIDE.md).
+gymnasium[box2d]>=1.2,<2
+stable-baselines3>=2.7,<3
+tensorboard>=2.20,<3
+moviepy>=2.2,<3
+matplotlib>=3.10,<4

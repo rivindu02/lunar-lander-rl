@@ -1,0 +1,14 @@
+.venv/
+.venv-ubuntu/
+__pycache__/
+.pytest_cache/
+*.pyc
+logs/
+models/
+videos/
+*.egg-info/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
