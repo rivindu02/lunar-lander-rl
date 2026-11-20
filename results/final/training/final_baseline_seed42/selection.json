@@ -1,0 +1,6 @@
+{
+  "timesteps": 1001472,
+  "mean_return": 228.56554653615007,
+  "checkpoint_sha256": "3a0949e714c2a8494d8f34901d61dcd4815fff27dc19e40af63fa0264027f5b5",
+  "rule": "highest mean validation return; earliest wins ties"
+}
