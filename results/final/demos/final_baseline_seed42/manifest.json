@@ -1,0 +1,23 @@
+{
+  "checkpoint": "models/final_baseline_seed42/best_model.zip",
+  "checkpoint_sha256": "3a0949e714c2a8494d8f34901d61dcd4815fff27dc19e40af63fa0264027f5b5",
+  "seeds": [
+    30000,
+    30001,
+    30002
+  ],
+  "files": [
+    {
+      "path": "videos/final_baseline_seed42/lander-episode-0.mp4",
+      "sha256": "623573aec2a1b715f13ab3e18109beb7747bb3342433bbaa8460b6c17d4b7533"
+    },
+    {
+      "path": "videos/final_baseline_seed42/lander-episode-1.mp4",
+      "sha256": "609c6fcdddf629befcdda7b78c90c08be535115daf9b3e914516ff601d53a2e7"
+    },
+    {
+      "path": "videos/final_baseline_seed42/lander-episode-2.mp4",
+      "sha256": "34d2158324dd0ee5bb2c4ea332445e15b3655eb87edd2073e5ac1a005bb84a96"
+    }
+  ]
+}
