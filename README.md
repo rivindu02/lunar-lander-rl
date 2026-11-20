@@ -4,7 +4,7 @@
 
 A completed CPU reinforcement-learning experiment for Gymnasium `LunarLander-v3`: train PPO, compare it with random actions, and test potential-based tilt shaping under equal training budgets. The spacecraft has eight observation values and four discrete actions; PPO learns an MLP policy for choosing the engines.
 
-**Result:** across three training seeds, tilt-shaped PPO achieved mean held-out return **251.62**, compared with **217.06** for baseline PPO and **−185.47** for random actions. Shaping improved average final performance by **34.56 points**, but did not improve the predefined learning-speed metric. [Full experiment notes](PROJECT_NOTES.md).
+**Result:** across three training seeds, tilt-shaped PPO achieved mean held-out return **251.62**, compared with **217.06** for baseline PPO and **−185.47** for random actions. Shaping improved average final performance by **34.56 points**, but did not improve the predefined learning-speed metric. [Full experiment report](docs/EXPERIMENT.md).
 
 ## Watch the agents
 
@@ -82,7 +82,7 @@ python -m unittest discover -s tests -v
 python smoke_check.py --name reproduce_smoke
 ```
 
-For an existing installation, activate `.venv-ubuntu` inside the same Ubuntu container. Keep it separate from the Arch-host `.venv`. A compiler and Python development headers may be needed for Box2D; see [GUIDE.md](GUIDE.md).
+For an existing installation, activate `.venv-ubuntu` inside the same Ubuntu container. Keep it separate from the Arch-host `.venv`. A compiler and Python development headers may be needed for Box2D; see [the reproduction guide](docs/GUIDE.md).
 
 The smoke command trains both conditions for 10,240 steps, checks deterministic checkpoint reloads, generates plots, and records/decodes a video. Its results are pipeline checks. The original Ubuntu smoke workflow passed; an independent clean-environment reproduction has not been repeated.
 
@@ -159,8 +159,28 @@ The seven-policy comparison passed budget, seed-bank, summary and checkpoint-pro
 
 Only three training seeds and ten validation seeds were used. Selecting the best checkpoint on a small validation bank can overfit that bank. These results support an average improvement for this experiment, not a general or statistically established shaping advantage. A simulation benchmark and good-looking clips do not establish real-world control performance or a measured physical landing-success rate.
 
-## References
+## Repository layout
 
-For local commit preparation, About/topics updates and a later explicit upload, see [GITHUB.md](GITHUB.md). The GitHub helper previews by default and keeps committing, metadata updates and pushing as separate actions.
+```text
+README.md                  Project overview, animations, and measured results
+train.py / rewards.py      PPO training and optional tilt shaping
+evaluate.py                Original-reward checkpoint evaluation
+run_experiments.py          Matched experiment workflow
+plot_results.py             Tables and figures from recorded measurements
+random_demo.py             Random-action simulator check
+record_demo.py             Record seeded evaluation videos
+smoke_check.py             End-to-end pipeline check
+verify_results.py          Check budgets, summaries, and checkpoint provenance
+common.py                  Shared measurement and artifact utilities
+tests/                     Focused unit tests
+docs/                      Reproduction guide and experiment report
+assets/readme/             Lightweight animations and visual summaries
+results/final/             Measured evidence, plots, and small training records
+scripts/                   README media builder
+```
+
+Local virtual environments, models, full logs, videos, and smoke diagnostics are ignored by Git. The original smoke outputs are retained under `local/smoke/ubuntu_smoke/`; the final comparison is in `results/final/`.
+
+## References
 
 Implementation follows the [Gymnasium Lunar Lander API](https://gymnasium.farama.org/environments/box2d/lunar_lander/), [Stable-Baselines3 PPO API](https://stable-baselines3.readthedocs.io/en/master/modules/ppo.html), and [Gymnasium recording API](https://gymnasium.farama.org/introduction/record_agent/). Algorithm background: [PPO](https://arxiv.org/abs/1707.06347) and [potential-based reward shaping](https://people.eecs.berkeley.edu/~russell/papers/icml99-shaping.pdf).
