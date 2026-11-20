@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "baseline",
+    "independent_runs": 3,
+    "mean_of_run_means": 217.06207719070505,
+    "std_of_run_means": 39.75813100661546
+  },
+  {
+    "condition": "random",
+    "independent_runs": 1,
+    "mean_of_run_means": -185.47458796464377,
+    "std_of_run_means": null
+  },
+  {
+    "condition": "shaped",
+    "independent_runs": 3,
+    "mean_of_run_means": 251.61972730414848,
+    "std_of_run_means": 23.57720679424268
+  }
+]
