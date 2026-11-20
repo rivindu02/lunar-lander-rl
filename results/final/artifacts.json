@@ -1,0 +1,362 @@
+[
+  {
+    "path": "logs/final_baseline_seed42/metadata.json",
+    "sha256": "5a0d4f5deb7ad12ca7a5b30db5ee926fe982a0c6fe83892e4c08e772b99f18fb",
+    "bytes": 3923
+  },
+  {
+    "path": "logs/final_baseline_seed42/selection.json",
+    "sha256": "3fa6c2cf2f7bf4dbfe22a241f8bf8e8afa0149207bab91d7645978eff74cffa4",
+    "bytes": 219
+  },
+  {
+    "path": "logs/final_baseline_seed42/train.monitor.csv",
+    "sha256": "867c1eb080d733f384db52aac529972f25b8a1324ab961e782be8eb3de914f7d",
+    "bytes": 65972
+  },
+  {
+    "path": "logs/final_baseline_seed42/validation.csv",
+    "sha256": "a20dc3e3f3b5793a450da671d2c5d704a2896219cf2f8efb86c10dde4ac3d0ce",
+    "bytes": 5544
+  },
+  {
+    "path": "logs/final_baseline_seed42/validation_episodes.csv",
+    "sha256": "cbcd2be304a070f701e8afa6bfc2ae72932a03e68d9fa959d974372f2305a18a",
+    "bytes": 93943
+  },
+  {
+    "path": "models/final_baseline_seed42/best_model.zip",
+    "sha256": "3a0949e714c2a8494d8f34901d61dcd4815fff27dc19e40af63fa0264027f5b5",
+    "bytes": 149116
+  },
+  {
+    "path": "models/final_baseline_seed42/final_model.zip",
+    "sha256": "3a0949e714c2a8494d8f34901d61dcd4815fff27dc19e40af63fa0264027f5b5",
+    "bytes": 149116
+  },
+  {
+    "path": "videos/final_baseline_seed42/episodes.csv",
+    "sha256": "61a63b42d9d1a1e01b078b83858159323eecd30d7271ed5b85c974d8345f4580",
+    "bytes": 431
+  },
+  {
+    "path": "videos/final_baseline_seed42/lander-episode-0.mp4",
+    "sha256": "623573aec2a1b715f13ab3e18109beb7747bb3342433bbaa8460b6c17d4b7533",
+    "bytes": 54617
+  },
+  {
+    "path": "videos/final_baseline_seed42/lander-episode-1.mp4",
+    "sha256": "609c6fcdddf629befcdda7b78c90c08be535115daf9b3e914516ff601d53a2e7",
+    "bytes": 60603
+  },
+  {
+    "path": "videos/final_baseline_seed42/lander-episode-2.mp4",
+    "sha256": "34d2158324dd0ee5bb2c4ea332445e15b3655eb87edd2073e5ac1a005bb84a96",
+    "bytes": 119561
+  },
+  {
+    "path": "videos/final_baseline_seed42/manifest.json",
+    "sha256": "cd1b6c3d38468de64c8366cd9af9dfe82f540b93127358b0cda2be00f11e32ae",
+    "bytes": 713
+  },
+  {
+    "path": "logs/final_shaped_seed42/metadata.json",
+    "sha256": "00f4e1a34d04264f86c1e65d8a64d4728577411077c43b9869b072509f20531c",
+    "bytes": 3919
+  },
+  {
+    "path": "logs/final_shaped_seed42/selection.json",
+    "sha256": "4d03d842a2bb54bafd410d1be222763702a46f9549df21a4f3988ad405708899",
+    "bytes": 216
+  },
+  {
+    "path": "logs/final_shaped_seed42/train.monitor.csv",
+    "sha256": "edc961237602a32100568cf130418a5f8141e614488a5457b6afaf687c764f72",
+    "bytes": 75013
+  },
+  {
+    "path": "logs/final_shaped_seed42/validation.csv",
+    "sha256": "2fd4cb02407e58968f590fd1df83c455d265bad0cbe891034376c17bda0e1922",
+    "bytes": 5570
+  },
+  {
+    "path": "logs/final_shaped_seed42/validation_episodes.csv",
+    "sha256": "eed337c7e7a851bdb47e280475c2616c70cef5ce8428a567a238f70626b7224b",
+    "bytes": 91898
+  },
+  {
+    "path": "models/final_shaped_seed42/best_model.zip",
+    "sha256": "f079599da7accd0c3a1922c4769d1545328cd59695d8a8e1ca6f206697f81bd4",
+    "bytes": 149101
+  },
+  {
+    "path": "models/final_shaped_seed42/final_model.zip",
+    "sha256": "3b9b8dc0976e23e06ea8757af95821e63bdca6e97dfb56a383629b2524032144",
+    "bytes": 149066
+  },
+  {
+    "path": "videos/final_shaped_seed42/episodes.csv",
+    "sha256": "58a4c4617f4ae2af61221ef6bc618ba99ee3507cd0534d66cd91dd7f7f0a0998",
+    "bytes": 417
+  },
+  {
+    "path": "videos/final_shaped_seed42/lander-episode-0.mp4",
+    "sha256": "c8a94e437355c10cf142f8b98f98ac32f0b2809ee135ac93e93f21a1f29d8579",
+    "bytes": 49983
+  },
+  {
+    "path": "videos/final_shaped_seed42/lander-episode-1.mp4",
+    "sha256": "bbc8d53bf2a266e40414a094ac571477114e2e283983268da6789aaa79e795d4",
+    "bytes": 62600
+  },
+  {
+    "path": "videos/final_shaped_seed42/lander-episode-2.mp4",
+    "sha256": "ee70103c18f4b774a138adbbef2d6072360f6998ed468721cec71639b24e83a3",
+    "bytes": 58133
+  },
+  {
+    "path": "videos/final_shaped_seed42/manifest.json",
+    "sha256": "f71f37da9655d77d3a9ffe9b858423f764469da637ca04782a635babc009ea56",
+    "bytes": 705
+  },
+  {
+    "path": "logs/final_baseline_seed43/metadata.json",
+    "sha256": "0d3b8ab088da89e1a45978374960cd63d0b5a6bcf13757ffcf91ccfdf629d764",
+    "bytes": 3922
+  },
+  {
+    "path": "logs/final_baseline_seed43/selection.json",
+    "sha256": "2e1a47b66f3f0f4428b6f772ae0ffae60498ce220dff8b49f218d779c0fc5c4f",
+    "bytes": 218
+  },
+  {
+    "path": "logs/final_baseline_seed43/train.monitor.csv",
+    "sha256": "99f54b56deba02881a4c9516638711b6f2205772dd2873256496e1b35d7b4d6a",
+    "bytes": 69544
+  },
+  {
+    "path": "logs/final_baseline_seed43/validation.csv",
+    "sha256": "0dfa89882c6b9a09063f5ce100b2d42e18d3c8199e21a943901ad4d53464bb45",
+    "bytes": 5558
+  },
+  {
+    "path": "logs/final_baseline_seed43/validation_episodes.csv",
+    "sha256": "5679643b76ed316d215b95ba0af96a1b2e7a9eb5fe87062c5705de1de73dac62",
+    "bytes": 93866
+  },
+  {
+    "path": "models/final_baseline_seed43/best_model.zip",
+    "sha256": "fcce87e3883b7d300a2f6a16a534ffe85851dcc1ce9227373ab590ccd18b6299",
+    "bytes": 149128
+  },
+  {
+    "path": "models/final_baseline_seed43/final_model.zip",
+    "sha256": "0c4ffade1370cdd13aa36b4414775e051a845770c73c283ef8778c1a12c0acd0",
+    "bytes": 149112
+  },
+  {
+    "path": "videos/final_baseline_seed43/episodes.csv",
+    "sha256": "e4573be7208d5536dd6462a290035b3976e8e42bec5e2e462682dfe48b3b2352",
+    "bytes": 429
+  },
+  {
+    "path": "videos/final_baseline_seed43/lander-episode-0.mp4",
+    "sha256": "2cfbb53b257e16fd1e74e816568dd61fbadd343bf19eca257608cc30e71f537e",
+    "bytes": 54099
+  },
+  {
+    "path": "videos/final_baseline_seed43/lander-episode-1.mp4",
+    "sha256": "75d8ea5da6b11f9405e928f3635f0240d988c5b112c4a6cd9f4e72e936acdf79",
+    "bytes": 54254
+  },
+  {
+    "path": "videos/final_baseline_seed43/lander-episode-2.mp4",
+    "sha256": "a4e30b16682c95fc317e3827581f70f4751597114275493c709025edbd8b405e",
+    "bytes": 51040
+  },
+  {
+    "path": "videos/final_baseline_seed43/manifest.json",
+    "sha256": "c955650303c70e56b474345224e01b38c42fe3903d22a4db64ecc9bb25722e88",
+    "bytes": 713
+  },
+  {
+    "path": "logs/final_shaped_seed43/metadata.json",
+    "sha256": "b601d56ea421a9040bb3cf3f9a034db40ad6ce0f0c91a6c6402271603818f387",
+    "bytes": 3919
+  },
+  {
+    "path": "logs/final_shaped_seed43/selection.json",
+    "sha256": "ddd6e442a6fcfe39726cb6d4b384f41e27d1aab72fa2eac5c8a78f52224a0fc2",
+    "bytes": 219
+  },
+  {
+    "path": "logs/final_shaped_seed43/train.monitor.csv",
+    "sha256": "a0df12c662ec57beb0b6005b6513b3734714967132564e6eae7aeb74029d00f6",
+    "bytes": 68957
+  },
+  {
+    "path": "logs/final_shaped_seed43/validation.csv",
+    "sha256": "4ecf38e3762d15e7e29058130ffd61b9e51267a38f3f3f629eaedbfbf083b29b",
+    "bytes": 5594
+  },
+  {
+    "path": "logs/final_shaped_seed43/validation_episodes.csv",
+    "sha256": "f772dedf41607a5bfcd1777429e5176273d18d32e170871c5e8cd02462d42447",
+    "bytes": 92026
+  },
+  {
+    "path": "models/final_shaped_seed43/best_model.zip",
+    "sha256": "5aed61260dc490ccca11b87d7e3a23465ab423d57e685b64e7d4cc1a099daa4f",
+    "bytes": 149034
+  },
+  {
+    "path": "models/final_shaped_seed43/final_model.zip",
+    "sha256": "5aed61260dc490ccca11b87d7e3a23465ab423d57e685b64e7d4cc1a099daa4f",
+    "bytes": 149034
+  },
+  {
+    "path": "videos/final_shaped_seed43/episodes.csv",
+    "sha256": "c6d0d1e6531db0c820111fc75bdbb00d24554f64ddd67b9f44495fea3571edda",
+    "bytes": 418
+  },
+  {
+    "path": "videos/final_shaped_seed43/lander-episode-0.mp4",
+    "sha256": "c0c92b785f547ecaf1b25947191608b3e3750a5baf251afa4028ba367aba6e7b",
+    "bytes": 53754
+  },
+  {
+    "path": "videos/final_shaped_seed43/lander-episode-1.mp4",
+    "sha256": "5ae2f1daacf2c17cf878475e52f72f2746c71dbba124b4134a877e02896a7e2f",
+    "bytes": 54386
+  },
+  {
+    "path": "videos/final_shaped_seed43/lander-episode-2.mp4",
+    "sha256": "cd2353d33c9e1f42b6fc908202b2526d3e9686078f0045309f2a9d5bfb62a4e9",
+    "bytes": 56018
+  },
+  {
+    "path": "videos/final_shaped_seed43/manifest.json",
+    "sha256": "3a40ce36f9a18696caa9ea9982c7473aedd6c4039c0d15b39668e49e1682af31",
+    "bytes": 705
+  },
+  {
+    "path": "logs/final_baseline_seed44/metadata.json",
+    "sha256": "de6853aa548054109b4a862af1c6d54ddfbed0a3af66bb1208d1a646761d9b1a",
+    "bytes": 3923
+  },
+  {
+    "path": "logs/final_baseline_seed44/selection.json",
+    "sha256": "f6e89c7e3dcad74c610d84d56a8c87c9b1ba6fba92607e3ae2d45b9bae91cde6",
+    "bytes": 218
+  },
+  {
+    "path": "logs/final_baseline_seed44/train.monitor.csv",
+    "sha256": "015289974cb7ad15f28449f4596f5dbe673aa702eb7d6ca39ce192661c27a72f",
+    "bytes": 85085
+  },
+  {
+    "path": "logs/final_baseline_seed44/validation.csv",
+    "sha256": "c2bb3ce76dcce341ca2ed99f6c550f69649d8eaf52ac0c95f910c24a37e6eb46",
+    "bytes": 5573
+  },
+  {
+    "path": "logs/final_baseline_seed44/validation_episodes.csv",
+    "sha256": "e05eaa273b922becc2d03c86be137d4b1f485631153255e6d24bbf42c49240e9",
+    "bytes": 93724
+  },
+  {
+    "path": "models/final_baseline_seed44/best_model.zip",
+    "sha256": "90def60a750a2c4f1f8a731f24c3f00b8b20470987a84f5ed3b823a07c84705d",
+    "bytes": 149039
+  },
+  {
+    "path": "models/final_baseline_seed44/final_model.zip",
+    "sha256": "dc47558d4a91d701d1f1154e05b5ff112cd8dd9457e5c9c40ac1db93c9920a18",
+    "bytes": 149024
+  },
+  {
+    "path": "videos/final_baseline_seed44/episodes.csv",
+    "sha256": "a7ecd2e0966564317f7cc8a52530e860066c24c6448bc836d9cfcc89d34fe732",
+    "bytes": 427
+  },
+  {
+    "path": "videos/final_baseline_seed44/lander-episode-0.mp4",
+    "sha256": "e2946e022e86f9c60bfb47bd18815de691e39eba4e8ba8d0d892f8822639823b",
+    "bytes": 41694
+  },
+  {
+    "path": "videos/final_baseline_seed44/lander-episode-1.mp4",
+    "sha256": "25c5e212ec24b4cfb20e21c1542254ad61dc22a328345718ee83a469d512343b",
+    "bytes": 42748
+  },
+  {
+    "path": "videos/final_baseline_seed44/lander-episode-2.mp4",
+    "sha256": "6b2bb9bbd65e924c61ffdb764d6dbf021fd061fd17314d3b52d2ca71ee46804e",
+    "bytes": 44199
+  },
+  {
+    "path": "videos/final_baseline_seed44/manifest.json",
+    "sha256": "2c2d5a0ffc857ba9c85fb2169585ab09e5fb187b295bedba6e1ed3c9d8a3b3d2",
+    "bytes": 713
+  },
+  {
+    "path": "logs/final_shaped_seed44/metadata.json",
+    "sha256": "a1fe0cb472d71e6a90fe5f0968c270aa69cf0c332a366a58e310b53113bc08d3",
+    "bytes": 3918
+  },
+  {
+    "path": "logs/final_shaped_seed44/selection.json",
+    "sha256": "01ffcf07c2a2f5a269175abb9a307b0b95628fd901feb66377530a17745ea142",
+    "bytes": 218
+  },
+  {
+    "path": "logs/final_shaped_seed44/train.monitor.csv",
+    "sha256": "6a7a3e55ccc84312c32f0cc34f60993abbd746e308290c7049aab0f9c129639b",
+    "bytes": 75067
+  },
+  {
+    "path": "logs/final_shaped_seed44/validation.csv",
+    "sha256": "c460097ffa285171f7de5ae6c086f66305c82646e5f6cd172c2e67fcd3e722a5",
+    "bytes": 5565
+  },
+  {
+    "path": "logs/final_shaped_seed44/validation_episodes.csv",
+    "sha256": "b991aea5d336becac33719852154b7117306d2842c688764cdacb0d211b50131",
+    "bytes": 92052
+  },
+  {
+    "path": "models/final_shaped_seed44/best_model.zip",
+    "sha256": "ab1ccc695abea90d524dd0b921d30da24e2acfe0839cb23ed277a60d36e6db38",
+    "bytes": 149089
+  },
+  {
+    "path": "models/final_shaped_seed44/final_model.zip",
+    "sha256": "39cb7ce9fee7e4ba3937f4fff0d94ad6491e9068f27065c03e153430eb4eb33e",
+    "bytes": 149086
+  },
+  {
+    "path": "videos/final_shaped_seed44/episodes.csv",
+    "sha256": "59ee62de9865ac2a76b173ec01c88a8da610a5e507fe3e1206c294d24d177ccc",
+    "bytes": 414
+  },
+  {
+    "path": "videos/final_shaped_seed44/lander-episode-0.mp4",
+    "sha256": "ce463437abe241128763d81a7698b7b139c4c1daf813a423fe7d032f8bb667df",
+    "bytes": 61653
+  },
+  {
+    "path": "videos/final_shaped_seed44/lander-episode-1.mp4",
+    "sha256": "2afa41ed2d08386d7ba0bcda5146416ea8bb4f1fe8de2a23b214525e7046daf6",
+    "bytes": 57988
+  },
+  {
+    "path": "videos/final_shaped_seed44/lander-episode-2.mp4",
+    "sha256": "eab06011b891821012e1dfff7a74704682087808ffa62543d609fb4f6f079352",
+    "bytes": 55235
+  },
+  {
+    "path": "videos/final_shaped_seed44/manifest.json",
+    "sha256": "b4e5fcb632fbcc9d95324344055bb6a1344d50196d7d9802a7ab9b0f8b11bd90",
+    "bytes": 705
+  }
+]

@@ -1,0 +1,7 @@
+Policies verified: 7
+Original artifact size/checksum entries verified: 72
+Frozen root Python source hashes matched: 10
+Preserved validation/metadata/demo evidence matches original files.
+Local Markdown links resolve in the current workspace, including local demo clips.
+Ubuntu smoke workflow: user-reported pass; not independently rerun in the sandbox.
+Host unit tests: 11 passed, 6 skipped (Gymnasium unavailable in host interpreter).
