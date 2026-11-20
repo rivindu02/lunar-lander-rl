@@ -1,0 +1,23 @@
+{
+  "checkpoint": "models/final_shaped_seed44/best_model.zip",
+  "checkpoint_sha256": "ab1ccc695abea90d524dd0b921d30da24e2acfe0839cb23ed277a60d36e6db38",
+  "seeds": [
+    30000,
+    30001,
+    30002
+  ],
+  "files": [
+    {
+      "path": "videos/final_shaped_seed44/lander-episode-0.mp4",
+      "sha256": "ce463437abe241128763d81a7698b7b139c4c1daf813a423fe7d032f8bb667df"
+    },
+    {
+      "path": "videos/final_shaped_seed44/lander-episode-1.mp4",
+      "sha256": "2afa41ed2d08386d7ba0bcda5146416ea8bb4f1fe8de2a23b214525e7046daf6"
+    },
+    {
+      "path": "videos/final_shaped_seed44/lander-episode-2.mp4",
+      "sha256": "eab06011b891821012e1dfff7a74704682087808ffa62543d609fb4f6f079352"
+    }
+  ]
+}
