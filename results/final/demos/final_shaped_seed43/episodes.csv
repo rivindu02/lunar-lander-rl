@@ -1,0 +1,4 @@
+condition,run_id,training_seed,checkpoint,episode_seed,return,length,terminated,truncated
+demo,final_shaped_seed43,,models/final_shaped_seed43/best_model.zip,30000,258.02769887857056,300,True,False
+demo,final_shaped_seed43,,models/final_shaped_seed43/best_model.zip,30001,295.44378402834786,261,True,False
+demo,final_shaped_seed43,,models/final_shaped_seed43/best_model.zip,30002,265.27271162459834,302,True,False
